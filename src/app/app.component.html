@@ -1,20 +1,111 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<bu-navbar color="transparent" bu-has-shadow bu-is-spaced wrap="true">
 
+  <bu-navbar-brand>
+    <a bu-navbar-item>
+      <bu-image image="./assets/images/logo.svg"></bu-image>
+    </a>
+  </bu-navbar-brand>
+
+  <bu-navbar-start>
+    <bu-navbar-dropdown-item>
+      <bu-icon icon="fa-book" color="primary"></bu-icon>
+      Documentation
+      <div dropdown-items>
+        <a bu-navbar-item>
+          Components
+        </a>
+        <hr bu-navbar-divider>
+        <a bu-navbar-item>
+          Examples
+        </a>
+      </div>
+    </bu-navbar-dropdown-item>
+    <a bu-navbar-item>
+      <bu-icon icon="fa-rss" color="warning"></bu-icon>
+      Blog
+    </a>
+  </bu-navbar-start>
+
+  <bu-navbar-end>
+    <a bu-button color="dark" href="http://github.com">
+      <bu-icon package="fab" icon="fa-github" color="white"></bu-icon>
+      GitHub
+    </a>
+  </bu-navbar-end>
+
+</bu-navbar>
+
+<bu-hero size="medium" color="primary">
+  <bu-hero-body>
+    <bu-container>
+      <bu-columns>
+        <bu-column size="6">
+          <h1 class="title intro-title">
+            Bulma Components for your Angular applications ...
+          </h1>
+        </bu-column>
+        <bu-column size="6">
+          <pre>npm install bulma angular2-bulma --save</pre>
+        </bu-column>
+      </bu-columns>
+    </bu-container>
+  </bu-hero-body>
+</bu-hero>
+
+<bu-hero size="medium" color="light">
+  <bu-hero-body>
+    <bu-container>
+      <bu-columns>
+        <bu-column size="6">
+          <pre>@import '~bulma'</pre>
+        </bu-column>
+        <bu-column size="6">
+          <h1 class="title intro-title">
+            Import Bulma CSS in your main styles.scss file ...
+          </h1>
+        </bu-column>
+      </bu-columns>
+    </bu-container>
+  </bu-hero-body>
+</bu-hero>
+
+<bu-hero size="medium" color="text">
+  <bu-hero-body>
+    <bu-container>
+
+      <bu-media>
+
+        <bu-media-left>
+          <bu-image image="https://pbs.twimg.com/profile_images/1022430145548873729/y9Hi5XDz_400x400.jpg" shape="rounded" size="128x128"></bu-image>
+        </bu-media-left>
+
+        <bu-media-content>
+          <bu-content>
+              <p>
+                  <strong>Samir Kahvedzic</strong> <small>@SKaDiZZ</small>
+                  <br>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                </p>
+          </bu-content>
+        </bu-media-content>
+
+        <bu-media-right>
+          <bu-delete></bu-delete>
+        </bu-media-right>
+
+      </bu-media>
+
+    </bu-container>
+  </bu-hero-body>
+</bu-hero>
+
+<bu-footer>
+  <bu-container>
+    <bu-columns>
+      <bu-column size="6">
+        <h4>Angular2-Bulma Components by Samir Kahvedzic</h4>
+        <p>Source code licensed MIT.</p>
+      </bu-column>
+    </bu-columns>
+  </bu-container>
+</bu-footer>

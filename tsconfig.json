@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular2-bulma": [
+        "dist/angular2-bulma"
+      ],
+      "angular2-bulma/*": [
+        "dist/angular2-bulma/*"
+      ]
+    }
   }
 }

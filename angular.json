@@ -125,6 +125,41 @@
           }
         }
       }
+    },
+    "angular2-bulma": {
+      "root": "projects/angular2-bulma",
+      "sourceRoot": "projects/angular2-bulma/src",
+      "projectType": "library",
+      "prefix": "bu",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/angular2-bulma/tsconfig.lib.json",
+            "project": "projects/angular2-bulma/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/angular2-bulma/src/test.ts",
+            "tsConfig": "projects/angular2-bulma/tsconfig.spec.json",
+            "karmaConfig": "projects/angular2-bulma/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/angular2-bulma/tsconfig.lib.json",
+              "projects/angular2-bulma/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "ang-bu"

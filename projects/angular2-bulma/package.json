@@ -1,0 +1,27 @@
+{
+  "name": "angular2-bulma",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SKaDiZZ/angular2-bulma"
+  },
+  "author": {
+    "name": "Samir Kahvedzic",
+    "email": "akirapowered@gmail.com",
+    "url": "https://virtuooza.com"
+  },
+  "keywords": [
+    "angular",
+    "bulma",
+    "css framework",
+    "components"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SKaDiZZ/angular2-bulma/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": "^7.0.2",
+    "@angular/core": "^7.0.2"
+  }
+}

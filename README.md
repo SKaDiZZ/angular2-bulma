@@ -1,27 +1,89 @@
-# AngBu
+# Angular2-Bulma
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+Angular2-Bulma is providing Bulma CSS Framework components to Angular developers for fast and easy development.
 
-## Development server
+# Content
+- Installation and setup
+  - [Install](#buinstall)
+  - [Import Bulma CSS](#buimportbulma)
+  - [Add Font Awesome Icons](#bufontawesome)
+  - [Import Angular2BulmaModule](#buimportmodule)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Components
+    - [bu-columns](#bucolumns) : Columns
+    - [bu-section](#busection) : Section
+    - [bu-hero](#buhero) : Hero
+    - [bu-container](#bucontainer) : Container
+    - [bu-conent](#bucontent) : Content
+    - [bu-footer](#bufooter) : Footer
+    - [bu-box](#bubox) : Box
+    - [bu-button](#bubutton) : Button
+    - [bu-delete](#budelete) : Delete
+    - [bu-icon](#buicon) : Icon
+    - [bu-image](#buimage) : Image
+    - [bu-notification](#bunotification) : Notification
+    - [bu-progress](#buprogress) : Progress
+    - [bu-tag](#butag) : Tag
+    - [bu-breadcrumb](#bubreadcrumb) : Breadcrumb
+    - [bu-card](#bucard) : Card
+    - [bu-dropdown](#budropdown) : Dropdown
+    - [bu-menu](#bumenu) : Menu
+    - [bu-message](#bumessage) : Message
+    - [bu-navbar](#bunavbar) : Navbar
+    - [bu-tabs](#butabs) : Tabs
 
-## Code scaffolding
+## <a name="buinstall"></a> Installation and setup
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm install bulma angular2-bulma --save
+```
 
-## Build
+## <a name="buimportbulma"></a> Import Bulma CSS
+In your main style.css file import Bulma CSS styles:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```css
+@import '~bulma';
+```
 
-## Running unit tests
+If you want to change values for some of bulma css variables define them before **@import**.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```css
+$menu-item-color: #3573D6;
+$menu-item-radius: 7px;
 
-## Running end-to-end tests
+@import '~bulma';
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## <a name="bufontawesome"></a> Font Awesome Icons
+If you want to use icons add into your index.html file.
+```html
+<!-- Add fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+```
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## <a name="buimportmodule"></a> Import Angular2BulmaModule
+
+Import Angular2BulmaModule in your app.module.ts file and add it into imports array.
+
+```typescript
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppComponent } from './app.component';
+import { Angular2BulmaModule } from 'angular2-bulma';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    Angular2BulmaModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+This will import all of the Angular2-Bulma component modules. But you can also import any of the individual component modules. Maybe you need only Tabs for your application so you can import only BuTabsModule without any other.
