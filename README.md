@@ -10,27 +10,27 @@ Angular2-Bulma is providing Bulma CSS Framework components to Angular developers
   - [Import Angular2BulmaModule](#buimportmodule)
 
 - Components
-    - [bu-columns](#bucolumns) : Columns
-    - [bu-section](#busection) : Section
-    - [bu-hero](#buhero) : Hero
-    - [bu-container](#bucontainer) : Container
-    - [bu-conent](#bucontent) : Content
-    - [bu-footer](#bufooter) : Footer
-    - [bu-box](#bubox) : Box
-    - [bu-button](#bubutton) : Button
-    - [bu-delete](#budelete) : Delete
-    - [bu-icon](#buicon) : Icon
-    - [bu-image](#buimage) : Image
-    - [bu-notification](#bunotification) : Notification
-    - [bu-progress](#buprogress) : Progress
-    - [bu-tag](#butag) : Tag
-    - [bu-breadcrumb](#bubreadcrumb) : Breadcrumb
-    - [bu-card](#bucard) : Card
-    - [bu-dropdown](#budropdown) : Dropdown
-    - [bu-menu](#bumenu) : Menu
-    - [bu-message](#bumessage) : Message
-    - [bu-navbar](#bunavbar) : Navbar
-    - [bu-tabs](#butabs) : Tabs
+    - [bu-columns](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-columns) : Columns
+    - [bu-section](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-section) : Section
+    - [bu-hero](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-hero) : Hero
+    - [bu-container](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-container) : Container
+    - [bu-conent](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-content) : Content
+    - [bu-footer](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-footer) : Footer
+    - [bu-box](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-box) : Box
+    - [bu-button](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-button) : Button
+    - [bu-delete](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-delete) : Delete
+    - [bu-icon](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-icon) : Icon
+    - [bu-image](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-image) : Image
+    - [bu-notification](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-notification) : Notification
+    - [bu-progress](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-progress) : Progress
+    - [bu-tag](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-tag) : Tag
+    - [bu-breadcrumb](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-breadcrumb) : Breadcrumb
+    - [bu-card](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-card) : Card
+    - [bu-dropdown](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-dropdown) : Dropdown
+    - [bu-menu](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-menu) : Menu
+    - [bu-message](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-message) : Message
+    - [bu-navbar](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-navbar) : Navbar
+    - [bu-tabs](https://github.com/SKaDiZZ/angular2-bulma/tree/master/projects/angular2-bulma/src/lib/bu-tabs) : Tabs
 
 ## <a name="buinstall"></a> Installation and setup
 
