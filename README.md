@@ -2,6 +2,11 @@
 
 Angular2-Bulma is providing Bulma CSS Framework components to Angular developers for fast and easy development.
 
+[![npm](https://img.shields.io/npm/v/angular2-bulma.svg)](https://www.npmjs.com/package/angular2-bulma) 
+[![Gitter](https://img.shields.io/gitter/room/SKaDiZZ/angular2-bulma.svg?logo=gitter-white)](https://gitter.im/angular2-bulma) [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/SKaDiZZ/angular2-bulma)
+
+
+
 # Content
 - Installation and setup
   - [Install](#buinstall)
@@ -87,3 +92,11 @@ import { Angular2BulmaModule } from 'angular2-bulma';
 export class AppModule { }
 ```
 This will import all of the Angular2-Bulma component modules. But you can also import any of the individual component modules. Maybe you need only Tabs for your application so you can import only BuTabsModule without any other.
+
+## Changelog
+### v0.0.2
+  - Initial commit
+
+## License
+
+MIT © [Samir Kahvedzic](mailto:akirapowered@gmail.com)
